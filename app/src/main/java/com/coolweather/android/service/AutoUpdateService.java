@@ -1,8 +1,16 @@
 package com.coolweather.android.service;
 
-/**
- * Created by Administrator on 2017/12/14 0014.
- */
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
 
-public class AutoUpdateService {
+public class AutoUpdateService extends Service {
+    public AutoUpdateService() {
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        // TODO: Return the communication channel to the service.
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
 }
